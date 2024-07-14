@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a Navigation Bar</title>
+    <link rel="stylesheet" href="./styles/style2.css">
+    
+
+</head>
+<body> 
+    <!----internal CSS---->
+    <style> 
+    body {
+        
+        background: url(./pexels-rostislav-5011647.jpg) no-repeat;
+        background-size: cover;
+        
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    </style>
+    <div class="wrapper">
+        <form action="./ind4.html">
+            <label for="uname">Username:</label><br>
+            <input type="text" id="uname" name="uname"><br>
+            <label for="pwd">Password:</label><br>
+            <input type="password" id="pwd" name="pwd"><br>
+            <label for="fav-car">Favorite Car:</label><br>
+            <select name = "fav-car" id="car">
+                <option value = "Kia" selected>Kia Sportage LX (2020)</option>
+                <option value = "Ford">Ford (2018) </option>
+                <option value = "Mazda">Mazda 3 (2012)</option>
+                <option value = "Honda">Honda Pilot (20212)</option>
+                <option value = "cifroli">Chivroli Taho(2015)</option>
+             </select>
+            <input type="submit" value="Submit" id="signup-submit" class="main__btn">
+            
+            <!--inline Style CSS-->
+            <p style="color:rgb(0, 255, 191);">If you click the "Submit" button, the form-data will be sent to a page called "./ind4.html"</p>
+        </form> 
+    </div>
+    <main><!--inline Style CSS-->
+        <section style="display: grid; position: absolute; top: 50%;left: 50%; opacity: 1;height: auto; width: 100%;transform: translate(-50%, -50%); margin: 150px;" >
+            <h1 style="color: aliceblue;">Welcome to My Website</h1>
+            <img src="cat-computer.gif"  class="gif">
+            
+        </section>
+    </main>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
