@@ -1,0 +1,159 @@
+/* ---External CSS---- */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.link{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 50px;
+    position:relative;
+    
+}
+.link a{
+    color: rgb(249, 170, 0);
+    
+}
+.link a:hover{
+    background: #fb0000;
+    }
+
+.wrapper{ 
+    background: url(../pexels-juanpphotoandvideo-967016.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo{
+    
+    position: absolute;
+    width: 10%;
+    height: 60px;
+    padding: 20px 60px; 
+    float: left;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    background: #80461B;
+    
+}
+.navbar ul{
+    float: right;
+    
+    
+}
+
+.navbar ul li{
+   
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-right: 100px;
+    font-family: 'Luci5da Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: rgba(246, 77, 21, 0.854);
+    border-radius: 2px;
+    
+}
+
+.navbar ul li:hover .dropdown{
+    
+    display: inline-block;
+    position: static;
+    background: rgba(246, 77, 21, 0.854);
+    margin-top: 15px;
+    margin-right: -15px;
+
+}
+
+/* .navbar ul li .dropdown ul li{
+    position: relative;
+    display: block;
+    margin: 10px;
+} */
+
+/* .navbar ul li:hover .dropdown ul li a :hover{
+    display: block;
+    color: rgba(47, 19, 9, 0.854);
+} */
+
+/* .wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: auto;
+    
+} */
+.center h1{
+    
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+    margin-left: px;
+    
+}
+.center h2{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 800px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 150px;
+}
+.center .buttons{
+    margin: 35px 280px;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fffbe4;
+    background: rgb(236, 97, 5);
+    border: 1px solid #ed8e40;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+
+}
+.buttons .btn{
+    
+    margin-left: 100px;
+}
+
+.buttons button:hover{
+    background: #75420c;
+}
+
+
+li a:hover:not(.active) {
+    background-color: #725006;
+}
+
+.active {
+    background-color: #b17e07;
+}
+
+
+
+
+

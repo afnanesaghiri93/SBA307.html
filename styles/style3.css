@@ -1,0 +1,31 @@
+/* .container {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    flex-wrap: wrap;
+    font-weight: 100px;
+} */
+
+.boxes {
+    border: 1px solid;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#box1 {
+    background-color: hsl(0, 70%, 70%);
+    
+}
+
+#box2 {
+    background-color: hsl(36, 70%, 70%);
+}
+
+#box3 {
+    background-color: hsl(72, 70%, 70%);
+    
+    flex-grow: 2;
+}

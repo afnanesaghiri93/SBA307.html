@@ -1,0 +1,40 @@
+
+.wrapper{ 
+    width: 500px;
+    background: rgba(243, 243, 243, 0.454);
+    color: #fff
+}
+/* input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+  } */
+
+  #signup-label{
+      color: white;
+      border-color: black;
+      padding-bottom: 25px;
+  }
+
+/*====  Using CSS animation  ======= */
+p {
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+  @keyframes slidein {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+
