@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creating 3 pages of website</title>
+    <link rel="stylesheet" href="./styles/style1.css">
+    <style>
+        /* Internal CSS for dropdown */
+        .dropdown {
+            position: relative;
+            display: none;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <img class="logo" src="./Screenshot 2024-06-12 170945.png">
+            <ul>
+                <li><a class="active" href="./ind3.html">Home</a></li>
+                <li><a href="./ind3.html">Login</a>
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="#">Login</a></li>
+                            
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#register">Register</a>
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="#">SignUp</a></li>
+                            
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            
+
+        </nav>
+        <div class="center">
+            <div class="link">
+                <h1>Welcome to my page!</h1>
+            <a href="../ind4.html"> Click me Please</a>
+            </div>
+            <br>
+            
+            <br>
+            <h1>Welcome To SoftWare </h1>
+            <h2>Create Somthing New</h2>
+            <div class="buttons">
+                <button>Explore More</button>
+                <button class="btn">Subscribe Us</button>
+            </div>
+        </div>
+        <p style="color:rgb(255, 255, 255);">If you click the "link", the form-data will be sent to a page called "./ind2.html"</p><hr>
+        <p style="color:rgb(255, 255, 255);">If you click the "Home" or "Login", the form-data will be sent to a page called "./ind3.html"</p>
+        
+       
+</body>
+</html>
